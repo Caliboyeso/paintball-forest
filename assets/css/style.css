@@ -1,0 +1,291 @@
+/* *, html, body, .navbar, #container (START)
+// ======================================================== */
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Righteous', cursive;
+}
+
+/* html, body */
+html, body {
+    height: 100%;
+}
+
+/* .navbar */
+.navbar {
+    border-bottom: 4px solid red;
+}
+
+
+/* #container */
+#container {
+    min-height: 100%;
+    overflow: auto;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+/* *, html, body, .navbar, #container (END)
+// ======================================================== */
+
+
+/* Main Page (START)
+// ======================================================== */
+/* .jumbotron */
+.jumbotron {
+    padding: 5px;
+    border: 1px solid grey;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: 'Righteous', cursive;
+    background-color: seagreen;
+    border: 3px solid silver;
+}
+
+/* .display-4 */
+.display-4 {
+    text-align: center;
+    color: black;
+}
+
+/* .lead */
+.lead {
+    color: white;
+    margin: 20px;
+}
+
+/* #lead */
+#lead {
+    font-size: 22px;
+}
+
+/* #learn-more-btn */
+#learn-more-btn {
+    color: black;
+}
+
+/* #row */
+#row {
+    margin-top: 35px;
+    margin-left: 45px;
+    margin-right: 45px;
+    font-family: 'Righteous', cursive;
+}
+
+/* .card-header */
+.card-header {
+    color: black;
+    font-size: 5px;
+    height: 45px;
+}
+
+/* .card-body */
+.card-body {
+    background-color: seagreen;
+}
+
+/* #tr */
+#tr {
+    font-size: 24px;
+    color: white;
+}
+
+/* tbody */
+tbody {
+    color:black;
+    font-size: 22px;
+}
+
+/* .form-group */
+.form-group {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+/* .form-control */
+.form-control {
+    height: 35px;
+    border: 5px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* #name-input, #players-input, #rentals-input, #email-input, #date-input */
+#name-input, #players-input, #rentals-input, #email-input, #date-input {
+    font-size: 21px;
+    border: 1px solid black;
+    background-color: silver;
+}
+
+/* #reservation-btn */
+#reservation-btn {
+    margin-left: 2px;
+    margin-top: 15px;
+    color: black;
+}
+/* Main Page (END)
+// ======================================================== */
+
+
+/* Rules Page (START)
+// ======================================================== */
+/* #rules-page-header */
+#rules-page-header {
+    text-align: center;
+    color: seagreen;
+}
+
+/* .list-group */
+.list-group {
+    text-align: left;
+    width: 1070px;
+    margin-left: 105px;
+    font-size: 23px;
+}
+
+/* #rules-list */
+#rules-list {
+    color:red;
+    background-color: papayawhip;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+/* #rules-text */
+#rules-text {
+    color:black;
+}
+/* Rules Page (END)
+// ======================================================== */
+
+
+/* Pricing Page (START)
+// ======================================================== */
+/* #pricing-title */
+#pricing-title {
+    text-align: center;
+    color: green;
+}
+
+/* img */
+img {
+    height: 150px;
+    border-bottom: 3px solid black;
+}
+
+/* #rental-title */
+#rental-title {
+    text-align: center;
+    color: white;
+}
+
+/* #rental-cards-container */
+#rental-cards-container {
+    display: flex;
+}
+
+/* #rental-cards */
+#rental-cards {
+    height: 380px;
+    margin: 25px;
+    margin-top: 5px;
+    margin-bottom: 65px;
+    font-size: 20px;
+    width: 450px;
+    border: 3px solid black;
+}
+
+/* #self-equipped-card */
+#self-equipped-card {
+    margin-left: 225px;
+    width: 800px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+/* ul */
+ul {
+    line-height: 35px;
+}
+/* Pricing Page (END)
+// ======================================================== */
+
+
+/* Contact Page (START)
+// ======================================================== */
+/* #contact-title */
+#contact-title {
+    text-align: center;
+    color: seagreen;
+}
+
+/* #contact-form */
+#contact-form {
+    width: 100px;
+    margin-left: 395px;
+}
+
+/* #contact-label */
+#contact-label {
+    text-align: left;
+    margin: 15px;
+    font-size: 22px;
+}
+
+/* #contact-input, #contact-textarea */
+#contact-input, #contact-textarea {
+    width: 430px;
+    background-color: papayawhip;
+    padding: 5px;
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* #contact-input */
+#contact-input {
+    height: 45px;
+}
+
+/* #contact-textarea */
+#contact-textarea {
+    height: 160px;
+    border: 2px solid black;
+}
+
+/* #contact-btn */
+#contact-btn {
+    font-size: 28px;
+    height: 50px;
+    width: 80px;
+    border-radius: 25%;
+    margin-left: 5px;
+    color: papayawhip;
+}
+/* Contact Page (END)
+// ======================================================== */
+
+
+/* Footer (START)
+// ======================================================== */
+/* footer */
+footer {
+    bottom: 0;
+    position: relative;
+    clear: both;
+    color:white;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    border-top: 4px solid red;
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+/* #footer-text */
+#footer-text {
+    margin-top: 12px;
+    font-family: 'Righteous', cursive;
+}
+/* Footer (END)
+// ======================================================== */
